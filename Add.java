@@ -1,5 +1,5 @@
 
-// Calculation of given numbers
+// Calculation of the given 2 numbers
 
 public class Add {
    public static void main(String args[]) {
