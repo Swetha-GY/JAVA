@@ -1,0 +1,20 @@
+
+// Program to Check the Leap Year
+
+import java.util.Scanner;
+
+public class Leap_year{
+    public static void main(String args[]){
+        Scanner sc= new Scanner(System.in);
+
+        System.out.print("Enter the Year :");
+        int year = sc.nextInt();
+
+        if((year%400==0)||( year%4==0 && year%100!=0)){
+            System.out.println("The Given Year is a Leap Year");
+        }else{
+            System.out.println("The Given Year is not a Leap Year");
+        }
+        sc.close();
+    }
+}
